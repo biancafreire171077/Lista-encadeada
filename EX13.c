@@ -4,3 +4,6 @@ int ehPrimoHelper(int n, int i) {
     if (i * i > n) return 1;
     return ehPrimoHelper(n, i + 1);
 }
+int ehPrimo(int n) {
+    return ehPrimoHelper(n, 2);
+}

@@ -5,4 +5,5 @@ int buscaBinaria(int arr[], int inicio, int fim, int alvo) {
     if (alvo < arr[meio])
        return buscaBinaria(arr, inicio,, meio - 1, alvo);
     return buscaBinaria(arr, meio + 1, fim, alvo);}
+
     

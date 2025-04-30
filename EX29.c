@@ -1,3 +1,4 @@
+#define MAX 10
 int caminhoLabirinto(int lab[MAX][MAX], int sol[MAX][MAX], int x, int y, int n, int m) {
     if (x == n - 1 && y == m - 1) {
         sol[x][y] = 1;

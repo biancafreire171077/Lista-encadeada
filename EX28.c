@@ -1,3 +1,4 @@
+#define N 8
 int tabuleiro[N];
 int podeColocar(int linha, int coluna) {
     for (int i = 0; i < linha; i++) {
